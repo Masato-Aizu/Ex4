@@ -14,5 +14,11 @@ int main(){
 
 sum = dice1 + dice2;
   printf("Total Value : %d\n",sum);
+  if(sum >= 8){
+    printf("you won!\n");
+  }
+  else{
+    printf("you lost!\n");
+  }
   return 0;
 }
